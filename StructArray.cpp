@@ -14,3 +14,8 @@ struct orang
     DetailAlamat alamat;
     int umur;
 };
+
+int main()
+{
+    // Deklarasi array dari struct orang
+    orang mhs[3];
