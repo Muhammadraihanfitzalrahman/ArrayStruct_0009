@@ -18,3 +18,19 @@ int main()
     // Deklarasi obyek dari struct orang
     orang mhs;
 
+    // isi obyek
+    cout << "Nama Mahasiswa: ";
+    getline(cin, mhs.nama);
+
+    cout << "Alamat Desa: ";
+    getline(cin, mhs.alamat.desa);
+
+    cout << "Alamat Kota: ";
+    getline(cin, mhs.alamat.kota);
+
+    cout << "Umur: ";
+    cin >> mhs.umur;
+
+    cout << endl;
+
+
