@@ -40,4 +40,19 @@ int main()
         cin >> mhs[i].umur;
         cin.ignore(); // supaya getline berikutnya tidak ke-skip
 
+       cout << endl;
     }
+
+    cout << endl;
+
+    // Menampilkan Isi Obyek
+    for (int i = 0; i < 3; i++)
+    {
+        cout << "Data ke-" << i + 1 << endl;
+        cout << "Nama  : " << mhs[i].nama << endl;
+        cout << "Desa  : " << mhs[i].alamat.desa << endl;
+        cout << "Kota  : " << mhs[i].alamat.kota << endl;
+        cout << "Umur  : " << mhs[i].umur << endl;
+        cout << endl;
+    }
+}
